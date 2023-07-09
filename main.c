@@ -4,7 +4,7 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
-
+#include <math.h>
 
 
 void menu();
