@@ -2,6 +2,8 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
+#include <ctype.h>
 
 
 void menu();
