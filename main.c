@@ -42,11 +42,14 @@ void menu() {
         int num1;
         scanf("%d", &num1);
         switch (num1) {
-            case 1:
+             case 1:
+                infoRomanNumerals();
                 break;
             case 2:
+                infoPrimeNumbers();
                 break;
             case 3:
+                infoDeleteGaps();
                 break;
             case 4:
                 break;
