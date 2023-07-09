@@ -11,6 +11,14 @@ int pPunto();
 int **matrizMagica();
 
 int **multiplicacionM();
+int getValue(char letra);
+int validateRomanNumeral(const char* roman);
+int romanNumerals(char* romano);
+void infoRomanNumerals();
+void primeNumbers(int num);
+void infoPrimeNumbers();
+void deleteGaps(char* texto);
+void infoDeleteGaps();
 
 int main() {
     menu();
