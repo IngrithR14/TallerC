@@ -185,7 +185,7 @@ void infoRomanNumerals(){
     while (again==1){
 
         char roman[100] ;
-        printf("Ingrese un número romano: \n");
+        printf("Ingrese un numero romano: \n");
         scanf("%s", roman);
         int valido= validateRomanNumeral(roman);
         if(valido){
@@ -197,13 +197,13 @@ void infoRomanNumerals(){
             if(decimal==0){
                 printf("Entrada invalida\n");
             }else {
-                printf("El número romano %s es equivalente a %d en decimal.\n", roman, decimal);
+                printf("El numero romano %s es equivalente a %d en decimal.\n", roman, decimal);
             }
         } else{
             printf("Entrada invalida\n");
         }
 
-        printf("Quiere intentar con otro número?\n"
+        printf("Quiere intentar con otro numero?\n"
                "1. Si\n"
                "2. No\n");
 
@@ -238,13 +238,13 @@ void infoPrimeNumbers(){
     while (again==1){
         int num;
 
-        printf("Ingrese un número: ");
+        printf("Ingrese un numero: ");
         scanf("%d", &num);
 
         printf("Los factores primos de %d en descomposicion: ", num);
         primeNumbers(num);
         printf("\n");
-        printf("Quiere intentar con otro número?\n"
+        printf("Quiere intentar con otro numero?\n"
                "1. Si\n"
                "2. No\n");
 
